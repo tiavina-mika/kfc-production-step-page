@@ -1,0 +1,59 @@
+.state-default-wrapper {
+  align-items: center;
+  display: flex;
+  padding: 14px 16px;
+  position: relative;
+}
+
+.state-default-wrapper .valeur {
+  flex: 1;
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: relative;
+}
+
+.state-default-wrapper.state-1-disabled {
+  height: 48px;
+  width: 264px;
+}
+
+.state-default-wrapper.state-1-default {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--x-blackdividers-100);
+  height: 50px;
+  width: 266px;
+}
+
+.state-default-wrapper.state-1-blue-text {
+  height: 48px;
+  width: 264px;
+}
+
+.state-default-wrapper.state-1-red-text {
+  height: 48px;
+  width: 264px;
+}
+
+.state-default-wrapper.state-1-disabled .valeur {
+  color: var(--x-black400);
+  margin-top: -1px;
+}
+
+.state-default-wrapper.state-1-default .valeur {
+  color: var(--x-blacktext-600);
+}
+
+.state-default-wrapper.state-1-blue-text .valeur {
+  color: var(--x-primary-blueprincipal-500);
+  margin-top: -1px;
+}
+
+.state-default-wrapper.state-1-red-text .valeur {
+  color: var(--x-red-errorerror-400);
+  margin-top: -1px;
+}

@@ -1,0 +1,51 @@
+.item {
+  align-items: center;
+  background-color: var(--fill-white);
+  border-color: var(--gris-100);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 16px 16px;
+  position: relative;
+  width: 247px;
+}
+
+.item .catalogue {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: var(--gris-800);
+  display: -webkit-box;
+  font-family: "Roboto", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 15px;
+  letter-spacing: 0;
+  line-height: 15px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item .icon-navigation {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.item .close {
+  width: 156px;
+}
+
+.item .open-small {
+  width: 40px;
+}
+
+.item .open {
+  width: 158px;
+}
+
+.item .close-small {
+  width: 40px;
+}

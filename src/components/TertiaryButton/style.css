@@ -1,0 +1,32 @@
+.tertiary-button {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.tertiary-button .tertiary-CTA {
+  color: var(--x-primary-blueprincipal-500);
+  font-family: var(--desktop-specifics-button-text-font-family);
+  font-size: var(--desktop-specifics-button-text-font-size);
+  font-style: var(--desktop-specifics-button-text-font-style);
+  font-weight: var(--desktop-specifics-button-text-font-weight);
+  letter-spacing: var(--desktop-specifics-button-text-letter-spacing);
+  line-height: var(--desktop-specifics-button-text-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tertiary-button:hover .tertiary-CTA {
+  color: var(--x-primary-blue700);
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-decoration: underline;
+}

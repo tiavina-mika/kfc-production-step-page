@@ -1,0 +1,75 @@
+.header {
+  align-items: center;
+  background-color: var(--x-whitewhite);
+  box-shadow: var(--shadow-2);
+  display: flex;
+  gap: 612px;
+  height: 64px;
+  padding: 16px;
+  position: relative;
+  width: 1187px;
+}
+
+.header .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  position: relative;
+}
+
+.header .icon-navigation-arrow-back-24px-1 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.header .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.header .date {
+  color: var(--x-yellow700);
+  font-family: var(--desktop-body-m-medium-font-family);
+  font-size: var(--desktop-body-m-medium-font-size);
+  font-style: var(--desktop-body-m-medium-font-style);
+  font-weight: var(--desktop-body-m-medium-font-weight);
+  letter-spacing: var(--desktop-body-m-medium-letter-spacing);
+  line-height: var(--desktop-body-m-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header .date-2 {
+  color: var(--x-black500);
+  font-family: var(--desktop-body-m-font-family);
+  font-size: var(--desktop-body-m-font-size);
+  font-style: var(--desktop-body-m-font-style);
+  font-weight: var(--desktop-body-m-font-weight);
+  letter-spacing: var(--desktop-body-m-letter-spacing);
+  line-height: var(--desktop-body-m-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  justify-content: flex-end;
+  margin-bottom: -4px;
+  margin-top: -4px;
+  position: relative;
+}
+
+.header .design-component-instance-node {
+  flex: 0 0 auto !important;
+}

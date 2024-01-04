@@ -1,0 +1,30 @@
+.value {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  padding: 14px 16px;
+  position: relative;
+  width: 56px;
+}
+
+.value .icon-action-print {
+  height: 24px;
+  margin-bottom: -2px;
+  margin-top: -2px;
+  position: relative;
+  width: 24px;
+}
+
+.value .text-wrapper-2 {
+  color: var(--x-whitewhite);
+  font-family: var(--desktop-body-s-medium-font-family);
+  font-size: var(--desktop-body-s-medium-font-size);
+  font-style: var(--desktop-body-s-medium-font-style);
+  font-weight: var(--desktop-body-s-medium-font-weight);
+  letter-spacing: var(--desktop-body-s-medium-letter-spacing);
+  line-height: var(--desktop-body-s-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

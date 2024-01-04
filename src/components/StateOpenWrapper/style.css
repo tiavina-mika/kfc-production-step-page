@@ -1,0 +1,43 @@
+.state-open-wrapper {
+  align-items: center;
+  background-color: var(--fill-white);
+  gap: 10px;
+  position: relative;
+}
+
+.state-open-wrapper .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.state-open-wrapper .text-wrapper {
+  color: var(--gris-600);
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.state-open-wrapper .icon-action-2 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.state-open-wrapper.state-open {
+  display: flex;
+  padding: 16px 24px 16px 32px;
+  width: 247px;
+}
+
+.state-open-wrapper.state-close {
+  display: inline-flex;
+  padding: 16px 24px;
+}

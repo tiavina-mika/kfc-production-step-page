@@ -1,0 +1,63 @@
+.primary-button-px {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+  padding: 11px 16px;
+  position: relative;
+}
+
+.primary-button-px .primary-CTA {
+  font-family: var(--desktop-specifics-button-text-font-family);
+  font-size: var(--desktop-specifics-button-text-font-size);
+  font-style: var(--desktop-specifics-button-text-font-style);
+  font-weight: var(--desktop-specifics-button-text-font-weight);
+  letter-spacing: var(--desktop-specifics-button-text-letter-spacing);
+  line-height: var(--desktop-specifics-button-text-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.primary-button-px.error-hover {
+  background-color: var(--x-red-error900);
+}
+
+.primary-button-px.disabled {
+  background-color: var(--x-black100);
+}
+
+.primary-button-px.hover {
+  background-color: var(--x-primary-blue700);
+}
+
+.primary-button-px.default {
+  background-color: var(--x-primary-blueprincipal-500);
+}
+
+.primary-button-px.error {
+  background-color: var(--x-red-error600);
+}
+
+.primary-button-px.error-hover .primary-CTA {
+  color: var(--x-whitewhite);
+}
+
+.primary-button-px.disabled .primary-CTA {
+  color: var(--x-black500);
+}
+
+.primary-button-px.hover .primary-CTA {
+  color: var(--x-whitewhite);
+}
+
+.primary-button-px.default .primary-CTA {
+  color: var(--x-whitewhite);
+}
+
+.primary-button-px.error .primary-CTA {
+  color: var(--x-whitewhite);
+}
